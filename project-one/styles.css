@@ -1,0 +1,35 @@
+body {
+  background-color: blue;
+  font-family:"Bookmania", serif;
+  color:black;
+  margin:0;
+  padding:0;
+}
+
+.container {
+    width: 768px;
+    height: 1824px;
+    margin: 0 auto;
+}
+
+.box {
+    margin-left: auto;
+    margin-right: auto;
+    width: 491px;
+}
+
+.header {
+    height: 60px;
+}
+
+.letter-container {
+    width: 491px;
+    display: flex;
+    align-items: baseline;
+}
+/* fonts
+*********************************************
+
+
+
+}
