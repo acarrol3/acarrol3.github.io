@@ -1,0 +1,118 @@
+body {
+  padding: 0;
+  margin: 0;
+  padding:20px 20px;
+  background-color: #EDD19C;
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  background-color: #abdd70;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+}
+
+#button {
+  display:flex;
+}
+
+.large-letter-group {
+  height: 579px;
+  width: 100%;
+  margin: 20px, 20px;
+  background-color: #E83737;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.large-letter-group h1 {
+  height: 300px;
+  width: 300px;
+  background-color: #ffffff;
+  font-family: Bookmania-bold;
+  font-feature-settings: "swsh" 1;
+  font-size: 180px;
+}
+
+.large-letter-group button {
+  width: 144px;
+  height: 40px;
+  background-color: #E3B152;
+}
+
+.large-letter-group h2 {
+  background-color: #f6d7d7;
+}
+
+
+.font-info {
+  background-color: #ff8d71;
+  padding: 20px 20px;
+  margin: 20px 20px;
+}
+
+.sample-set {
+  background-color: #00c2c7;
+  font-family: Bookmania-bold;
+  font-size: 35px;
+  margin: 20px 20px;
+}
+
+.visual-examples {
+  background-color: #eaadbd;
+  padding: 20px 20px;
+  margin: 20px 20px;
+  justify-content: flex-start;
+}
+
+.visual-examples have_it_your_way{
+  height: 100px;
+}
+
+.visual-examples rod_stewart{
+  height: 100px;
+  width: 100px;
+}
+
+.body-copy {
+  font-family: Bookmania;
+  background-color: #97ebdb;
+  padding: 5px 5px;
+  margin: 20px;
+}
+
+.web-content {
+  background-color:#fff8b6;
+  padding: 20px 20px;
+  margin: 20px;
+  display: flex;
+}
+
+#author-info {
+  background-color: #dbdcff;
+  padding: 20px 20px;
+  margin: 20px;
+  display: flex;
+}
+
+footer {
+  display:flex;
+  background-color: #0086ad;
+  padding: 20px 20px;
+  justify-content: center;
+}
+
+footer img {
+  height:147px;
+}
+
+#sources {
+  background-color: #d4ffea;
+  padding: 20px 20px;
+  margin: 20px;
+}

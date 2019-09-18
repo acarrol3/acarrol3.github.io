@@ -1,0 +1,172 @@
+body {
+  padding: 0;
+  margin: 0;
+  padding:20px 20px;
+  background-color: #EDD19C;
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 20px;
+}
+
+#button {
+  display:flex;
+}
+
+.large-letter-group {
+  height: 325px;
+  width: 100%;
+  margin: 20px, 20px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 20px 20px;
+}
+
+.large-letter-group h1#large-letter {
+  height: 200px;
+  width: 200px;
+  font-family: Bookmania-bold;
+  font-feature-settings: "ss16", "ss10";
+  font-size: 580px;
+  position:absolute;
+  top: -40%;
+  right: 42%;
+}
+
+.header h2 {
+  position:relative;
+  top: 450px;
+  left: 80%;
+  font-size: 900px;
+}
+
+/* ss07 for post-button */
+
+.large-letter-group button {
+  width: 144px;
+  height: 40px;
+  background-color: #E3B152;
+  border:none;
+  font-family: bookmania, serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.large-letter-group h2 {
+  font-family: bookmania, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 40px;
+  color: black;
+  font-feature-settings: "ss16", "ss10";
+}
+
+.font-info {
+  padding: 15px 10px;
+  margin: 10px 10px;
+}
+
+.web-content {
+  width: 900px;
+  display: flex;
+  position:absolute;
+  left: 25%;
+}
+
+.sample-set {
+  font-family: Bookmania-bold;
+  font-size: 80px;
+  margin: 20px 20px;
+  font-feature-settings: "ss16";
+}
+
+.visual-examples {
+  padding-right: 20px 20px;
+  padding-top: 60px;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-around;
+}
+
+.visual-examples have_it_your_way{
+  height: 400px;
+}
+
+.visual-examples rod_stewart{
+  height: 100px;
+}
+
+.body-copy {
+  font-family: Bookmania;
+  padding: 5px 5px;
+  margin: 10px;
+}
+
+.web-content {
+  background-color:#E3B152;
+  padding: 20px 20px;
+  margin: 20px;
+  border-radius: 75px;
+  margin-top: 40px;
+}
+
+#author-info {
+  background-color: rgba(255,255,255,.5);
+  padding: 20px 20px;
+  margin: 20px;
+  display: flex;
+  align-items: right;
+  width: 900px;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#author-header {
+  padding: 15px 15px;
+}
+
+footer {
+  padding: 20px 20px;
+  font-family: bookmania, serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 16px;
+  display:flex;
+  justify-content: center;
+}
+
+footer img {
+  height:170px;
+}
+
+#sources {
+  background-color: rgba(255,255,255,.5);
+  padding: 20px 20px;
+  margin: 20px;
+  position:absolute;
+  bottom: 0%;
+}
+
+h3 {
+  font-family: bookmania, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+  font-feature-settings: "ss10";
+}
+
+#sources .p {
+  font-family: bookmania bold, serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 25px;
+}
