@@ -1,0 +1,18 @@
+.container {
+  background-color: #bbbeff;
+  font-family: mr-eaves-xl-modern, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 40px;
+}
+
+h1 {
+  font-size: 90px;
+  font-family: univia-pro, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+section h2 {
+  font-size: 55px;
+}

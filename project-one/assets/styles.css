@@ -1,7 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  padding:20px 20px;
+  /* padding:20px 20px; */
   background-color: #EDD19C;
   font-family: bookmania, serif;
   font-weight: 400;
@@ -11,39 +11,37 @@ body {
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 20px;
-}
-
-#button {
-  display:flex;
+  width: 768px;
+  align-items: center;
+  /* padding: 20px 20px; */
 }
 
 .large-letter-group {
   height: 325px;
-  width: 100%;
-  margin: 20px, 20px;
+  width: 768px;
+  margin: 0 auto;
+  margin-top: 80px;
+  margin-bottom: 160px;
   display: flex;
-  align-items: flex-start;
-  justify-content: space-around;
-  padding: 20px 20px;
+  justify-content: center;
+  /* padding: 20px 20px; */
 }
 
 .large-letter-group h1#large-letter {
-  height: 200px;
-  width: 200px;
   font-family: Bookmania-bold;
   font-feature-settings: "ss16", "ss10";
-  font-size: 580px;
-  position:absolute;
-  top: -40%;
-  right: 42%;
+  font-size: 502px;
+  margin:0;
+  margin-top:-165px;
 }
 
-.header h2 {
-  position:relative;
-  top: 450px;
-  left: 80%;
-  font-size: 900px;
+.large-letter-group h1#large-letter-analysis {
+  font-family: Bookmania-bold;
+  font-feature-settings: "ss07";
+  font-size: 502px;
+  position:absolute;
+  top: -68%;
+  right: 10%;
 }
 
 /* ss07 for post-button */
@@ -57,58 +55,42 @@ body {
   font-weight: 700;
   font-style: normal;
   border-radius: 10px;
-  justify-content: center;
 }
 
 .large-letter-group h2 {
   font-family: bookmania, serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 40px;
+  font-size: 42px;
   color: black;
   font-feature-settings: "ss16", "ss10";
-}
-
-.font-info {
-  padding: 15px 10px;
-  margin: 10px 10px;
-}
-
-.web-content {
-  width: 900px;
-  display: flex;
   position:absolute;
+  top: 67%;
+  left: 66%;
+}
+
+.large-letter-group img#letter-analysis {
+  position:absolute;
+  z-index: 99;
+  top: 159.3px;
   left: 25%;
+  /* visibility: hidden; */
 }
 
-.sample-set {
-  font-family: Bookmania-bold;
-  font-size: 80px;
-  margin: 20px 20px;
-  font-feature-settings: "ss16";
+.invisible {
+  visibility: hidden;
 }
 
-.visual-examples {
-  padding-right: 20px 20px;
-  padding-top: 60px;
-  margin-right: 20px;
-  display: flex;
-  flex-direction: column;
-  justify-content:space-around;
-}
+/* .large-letter-group img#letter-analysis.visible {
+  visibility: visible;
+} */
 
-.visual-examples have_it_your_way{
-  height: 400px;
-}
-
-.visual-examples rod_stewart{
-  height: 100px;
-}
-
-.body-copy {
-  font-family: Bookmania;
-  padding: 5px 5px;
-  margin: 10px;
+#arrow {
+  width: 70px;
+  height: 40px;
+  position:absolute;
+  left:15%;
+  top: 21%;
 }
 
 .web-content {
@@ -117,21 +99,59 @@ body {
   margin: 20px;
   border-radius: 75px;
   margin-top: 40px;
-}
-
-#author-info {
-  background-color: rgba(255,255,255,.5);
-  padding: 20px 20px;
-  margin: 20px;
+  width: 80%;
   display: flex;
-  align-items: right;
-  width: 900px;
-  flex-wrap: wrap;
-  flex-direction: row;
+  justify-content: center;
 }
 
-#author-header {
-  padding: 15px 15px;
+.font-info {
+  padding: 10px 10px;
+  margin: 10px 10px;
+}
+
+.sample-set {
+  font-family: Bookmania-bold;
+  font-size: 65px;
+  margin: 10px 10px;
+  font-feature-settings: "ss16";
+  text-align: justify;
+  background-color:#D3A040;
+  align-items: center;
+  border-color: black;
+  border-width: 5px;
+  border-style: double;
+  border-radius: 25px;
+}
+
+.overflow {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  clear: both;
+  height: 400px;
+}
+
+.sample-set p {
+  margin:10px;
+  text-align: center;
+}
+
+.visual-examples {
+  padding-top: 37px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.visual-examples img {
+  padding: 20px 20px;
+}
+
+.body-copy {
+  font-family: Bookmania;
+  padding: 5px 5px;
+  margin: 10px;
+  font-size: 17px;
 }
 
 footer {
@@ -140,20 +160,35 @@ footer {
   font-weight: 400;
   font-style: normal;
   font-size: 16px;
-  display:flex;
   justify-content: center;
+  width: 100%;
+}
+
+#author-info {
+  background-color: rgba(255,255,255,.5);
+  padding: 20px 20px;
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  width: 50%;
+  justify-content: flex-end;
+  /* position:relative;
+  bottom: 30%;
+  left: 31%; */
+}
+
+#author-header {
+  padding: 15px 15px;
 }
 
 footer img {
-  height:170px;
+  height:120px;
 }
 
 #sources {
   background-color: rgba(255,255,255,.5);
   padding: 20px 20px;
   margin: 20px;
-  position:absolute;
-  bottom: 0%;
 }
 
 h3 {
