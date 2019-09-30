@@ -41,13 +41,24 @@ body {
   font-feature-settings: "ss07";
   font-size: 460px;
   position:absolute;
-  top: -18%;
-  right: -3%;
+  top: -474px;
+  right: -5%;
 }
 
 /* ss07 for post-button */
 
-button {
+#button1 {
+  width: 144px;
+  height: 70px;
+  background-color: #E3B152;
+  border:none;
+  font-family: bookmania, serif;
+  font-weight: 700;
+  font-style: normal;
+  border-radius: 10px;
+}
+
+#button2 {
   width: 144px;
   height: 70px;
   background-color: #E3B152;
@@ -123,7 +134,7 @@ a {
 .sample-set {
   font-family: Bookmania;
   font-size: 65px;
-  margin: 10px 10px;
+  margin: 37px 10px;
   font-feature-settings: "ss16";
   text-align: justify;
   background-color:#D3A040;
@@ -170,7 +181,7 @@ footer {
   font-family: bookmania, serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 16px;
+  font-size: 12px;
   justify-content: center;
   width: 100%;
 }
