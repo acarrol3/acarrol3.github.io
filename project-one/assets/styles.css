@@ -99,6 +99,40 @@ a {
   /* visibility: hidden; */
 }
 
+.letter-analysis {
+  background-color: #E3B152;
+  width: 200px;
+  position:absolute;
+  z-index: 99;
+  top: 77.3px;
+  left: 4%;
+  padding: 20px;
+  border-radius: 20%;
+}
+
+.letter-analysis p {
+  margin-top: 20px;
+}
+
+#close-button {
+  position: absolute;
+  right: 10%;
+  top: 10%;
+  font-family: sans-serif;
+  color: #E3B152;
+  font-size: 12px;
+  padding: 5px;
+  background-color: #EDD19C;
+  text-align: center;
+  border-radius: 20%;
+}
+
+#close-button:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
+
 .invisible {
   visibility: hidden;
 }
