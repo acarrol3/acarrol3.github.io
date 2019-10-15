@@ -1,0 +1,71 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 768px;
+  align-items: center;
+  position: relative;
+  background-color: #FFD79F;
+}
+
+#header {
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #FAC2C2;
+  position: relative;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px;
+}
+
+button {
+  margin-top: 10px;
+  margin-bottom:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #51714D;
+  width: 183px;
+  height: 51px;
+}
+
+#body {
+  background-color: #A4DBE0;
+  width: 600px;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  width: 400px;
+  margin-right: auto;
+  margin-bottom: 10px;
+  background-color: #FFF1C3;
+  padding: 5px;
+}
+
+#image {
+  width: 550px;
+  height: 350px;
+  background-color: #82E870;
+  img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+p#bank {
+  height: 70px;
+}
