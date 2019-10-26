@@ -1,0 +1,167 @@
+body {
+  background-color: #F2F2F2;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 768px;
+  align-items: center;
+  position: relative;
+}
+
+#header {
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  position: relative;
+  text-align: center;
+  font-family: 'Petit Formal Script', cursive;
+  color: #0C0E46;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  margin-bottom:8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #3B0D2D;
+  width: 183px;
+  height: 51px;
+  border-radius: 15px;
+  border: none;
+}
+
+a {
+  font-family: 'Taviraj', serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+}
+
+#body {
+  width: 600px;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#info {
+  height: 200px;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 30px;
+  border-color: #3B0D2D;
+}
+
+p {
+  margin-left: auto;
+  text-align: center;
+  width: 400px;
+  margin-right: auto;
+  margin-bottom: 20px;
+  padding: 5px;
+  font-family: 'Taviraj', serif;
+  font-size: 20px;
+  color: #0C0E46;
+}
+
+#image {
+  width: 550px;
+  height: 350px;
+  background-color: #3B0D2D;
+  border-radius: 50px;
+  border-style: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+img {
+  display: flex;
+  position: absolute;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.transparent {
+  opacity: .5;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#napkin {
+  left: 20%;
+  top: 37%;
+}
+
+#salad-fork {
+  left: 22%;
+  top: 43%;
+}
+
+#dinner-fork {
+  left: 26%;
+  top: 40%;
+}
+
+#bread-plate {
+  left: 20%;
+  top: 20%;
+}
+
+#butter-knife {
+  left: 19%;
+  top: 24%;
+}
+
+#dinner-plate {
+  left: 36%;
+  top: 35%;
+}
+
+#dessert-spoon {
+  left: 44%;
+  top: 31%;
+}
+
+#dinner-knife {
+  left: 70%;
+  top: 40%;
+}
+
+#soup-spoon {
+  left: 75%;
+  top: 41%;
+}
+
+#water-cup {
+  left: 59%;
+  top: 20%;
+}
+
+#red-wine {
+  left: 70%;
+  top: 18%;
+}
+
+#white-wine {
+  left: 81%;
+  top: 18%;
+}

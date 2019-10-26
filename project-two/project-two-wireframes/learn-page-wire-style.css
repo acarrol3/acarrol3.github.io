@@ -14,6 +14,7 @@
   background-color: #FAC2C2;
   position: relative;
   text-align: center;
+  font-size: 30px;
 }
 
 nav {
@@ -21,12 +22,10 @@ nav {
   justify-content: center;
   margin-left: auto;
   margin-right: auto;
-  width: 400px;
 }
 
 button {
-  margin-top: 10px;
-  margin-bottom:10px;
+  margin-bottom:8px;
   margin-left: 20px;
   margin-right: 20px;
   background-color: #51714D;
@@ -48,24 +47,98 @@ button {
 p {
   display: block;
   margin-left: auto;
+  text-align: center;
   width: 400px;
   margin-right: auto;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
   background-color: #FFF1C3;
   padding: 5px;
+  font-size: 20px;
 }
 
 #image {
   width: 550px;
   height: 350px;
   background-color: #82E870;
-  img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
 }
 
-p#bank {
-  height: 70px;
+img {
+  display: flex;
+  position: absolute;
+}
+
+.opaque {
+  opacity: 1;
+}
+
+.transparent {
+  opacity: .5;
+}
+
+.invisible {
+  opacity: 0;
+}
+
+#napkin {
+  left: 20%;
+  top: 37%;
+}
+
+#salad-fork {
+  left: 22%;
+  top: 43%;
+}
+
+#dinner-fork {
+  left: 26%;
+  top: 40%;
+}
+
+#bread-plate {
+  left: 20%;
+  top: 20%;
+}
+
+#butter-knife {
+  left: 19%;
+  top: 24%;
+}
+
+#dinner-plate {
+  left: 36%;
+  top: 35%;
+}
+
+#dessert-spoon {
+  left: 44%;
+  top: 31%;
+}
+
+#dinner-knife {
+  left: 70%;
+  top: 40%;
+}
+
+#soup-spoon {
+  left: 75%;
+  top: 41%;
+}
+
+#water-cup {
+  left: 59%;
+  top: 20%;
+}
+
+#red-wine {
+  left: 70%;
+  top: 18%;
+}
+
+#white-wine {
+  left: 81%;
+  top: 18%;
 }

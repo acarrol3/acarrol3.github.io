@@ -14,24 +14,22 @@
   background-color: #FAC2C2;
   position: relative;
   text-align: center;
+  font-size: 30px;
 }
 
 nav {
-  display: flex;
+  display:flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 400px;
 }
 
 button {
-  margin-top: 10px;
-  margin-bottom:8px;
+  margin-bottom:20px;
   margin-left: 20px;
   margin-right: 20px;
   background-color: #51714D;
   width: 183px;
   height: 51px;
+  font-size: 20px;
 }
 
 #body {
@@ -48,12 +46,12 @@ button {
 p {
   display: block;
   margin-left: auto;
-  text-align: center;
-  width: 400px;
+  width: 475px;
   margin-right: auto;
   margin-bottom: 20px;
-  background-color: #FFF1C3;
   padding: 5px;
+  font-size: 20px;
+  background-color: #FFF1C3;
 }
 
 #image {
@@ -65,4 +63,9 @@ p {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
+}
+
+#intro {
+  width: 400px;
+  margin-top: 30px;
 }

@@ -1,0 +1,202 @@
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 768px;
+  align-items: center;
+  position: relative;
+  background-color: #FFD79F;
+}
+
+#header {
+  margin: auto;
+  margin-top: 20px;
+  justify-content: center;
+  background-color: #FAC2C2;
+  position: relative;
+  text-align: center;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 500px;
+}
+
+button {
+  margin-bottom:10px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #51714D;
+  width: 183px;
+  height: 51px;
+  font-size: 20px
+}
+
+#body {
+  background-color: #A4DBE0;
+  width: 600px;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#bank {
+  height: 200px;
+  font-size: 20px;
+  background-color: red;
+}
+
+p {
+  display: block;
+  margin-left: auto;
+  width: 600px;
+  margin-right: auto;
+  background-color: #FFF1C3;
+  padding: 5px;
+  font-size: 20px;
+}
+
+#place-setting {
+  width: 550px;
+  height: 350px;
+  background-color: #82E870;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+img {
+  position: absolute;
+}
+
+#napkin {
+  left: 81%;
+  top: 69%;
+}
+
+#salad-fork {
+  left: 3%;
+  top: 75%;
+}
+
+#dinner-fork {
+  left: 56%;
+  top: 73%;
+}
+
+#bread-plate {
+  left: 66%;
+  top: 84%;
+}
+
+#butter-knife {
+  left: 50%;
+  top: 68%;
+}
+
+#dinner-plate {
+  left: 7%;
+  top: 68%;
+}
+
+#dessert-spoon {
+  left: 51%;
+  top: 95%;
+}
+
+#dinner-knife {
+  left: 61%;
+  top: 72%;
+}
+
+#soup-spoon {
+  left: 50%;
+  top: 73%;
+}
+
+#water-cup {
+  left: 67%;
+  top: 70%;
+}
+
+#red-wine {
+  left: 37%;
+  top: 84%;
+}
+
+#white-wine {
+  left: 38%;
+  top: 68%;
+}
+
+.box {
+  background-color: orange;
+  position: absolute;
+}
+
+#napkin-box {
+  left: 20%;
+  top: 27%;
+}
+
+#salad-fork-box {
+  left: 25%;
+  top: 33%;
+}
+
+#dinner-fork-box {
+  left: 29%;
+  top: 30%;
+}
+
+#bread-plate-box {
+  left: 20%;
+  top: 7%;
+}
+
+#butter-knife-box {
+  left: 19%;
+  top: 13%;
+}
+
+#dinner-plate-box {
+  left: 36%;
+  top: 25%;
+}
+
+#dessert-spoon-box {
+  left: 44%;
+  top: 21%;
+}
+
+#dinner-knife-box {
+  left: 70%;
+  top: 30%;
+}
+
+#soup-spoon-box {
+  left: 75%;
+  top: 31%;
+}
+
+#water-cup-box {
+  left: 59%;
+  top: 8%;
+}
+
+#red-wine-box {
+  left: 70%;
+  top: 6%;
+}
+
+#white-wine-box {
+  left: 81%;
+  top: 6%;
+}
