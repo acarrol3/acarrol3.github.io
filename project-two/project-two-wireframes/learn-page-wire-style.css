@@ -71,6 +71,10 @@ img {
   position: absolute;
 }
 
+img:hover {
+  opacity: 1;
+}
+
 .opaque {
   opacity: 1;
 }

@@ -28,7 +28,7 @@ nav {
   justify-content: center;
 }
 
-button {
+/* button {
   margin-bottom:20px;
   margin-left: 20px;
   margin-right: 20px;
@@ -41,10 +41,28 @@ button {
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
+} */
+
+a:hover {
+  background-color: #0C0E46;
 }
 
 a {
+  text-align: center;
   color: white;
+  text-decoration: none;
+  margin-bottom:20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #3B0D2D;
+  border: none;
+  border-radius: 15px;
+  width: 183px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: 'Taviraj', serif;
+  font-weight: bold;
+  font-size: 20px;
   text-decoration: none;
 }
 

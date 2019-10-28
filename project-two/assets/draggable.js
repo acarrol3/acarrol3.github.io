@@ -1,6 +1,6 @@
 $(document).ready(function (){
 $( function() {
-    $( "#napkin" ).draggable({ snap: ".napkin-box", snapMode: "inner"  });
+    $( "#napkin" ).draggable({ snap: ".napkin-box", snapMode: "inner" });
     $("#salad-fork").draggable({ snap: ".salad-fork-box", snapMode: "inner"  });
     $( "#dinner-fork" ).draggable({ snap: ".dinner-fork-box", snapMode: "inner"  });
     $( "#bread-plate" ).draggable({ snap: ".bread-plate-box", snapMode: "inner"  });

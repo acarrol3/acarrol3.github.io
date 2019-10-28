@@ -31,12 +31,45 @@ nav {
   width: 500px;
 }
 
+nav p {
+  width: 50%;
+}
+
 a {
   color: white;
   text-decoration: none;
+  margin-bottom:10px;
+  margin-left: 10px;
+  background-color: #3B0D2D;
+  border-radius: 15px;
+  border: none;
+  font-family: 'Taviraj', serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  align-items: center;
 }
 
-button {
+a:hover {
+  background-color: #0C0E46;
+}
+
+a#home,
+a#reset {
+  width: 183px;
+  display: block;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#links {
+  display:inline-block;
+  text-align: center;
+  width: 50%;
+}
+
+/* button {
   margin-bottom:10px;
   margin-left: 10px;
   margin-right: 20px;
@@ -50,7 +83,7 @@ button {
   font-size: 20px;
   text-decoration: none;
   color: white;
-}
+} */
 
 #body {
   width: 600px;

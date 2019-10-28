@@ -28,7 +28,7 @@ nav {
   margin-right: auto;
 }
 
-button {
+/* button {
   margin-bottom:8px;
   margin-left: 20px;
   margin-right: 20px;
@@ -37,14 +37,28 @@ button {
   height: 51px;
   border-radius: 15px;
   border: none;
-}
+} */
 
 a {
+  text-align: center;
   font-family: 'Taviraj', serif;
   font-weight: bold;
   font-size: 20px;
   text-decoration: none;
   color: white;
+  margin-bottom:8px;
+  margin-left: 20px;
+  margin-right: 20px;
+  background-color: #3B0D2D;
+  width: 183px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 15px;
+  border: none;
+}
+
+a:hover {
+  background-color: #0C0E46;
 }
 
 #body {
@@ -92,6 +106,10 @@ p {
 img {
   display: flex;
   position: absolute;
+}
+
+img:hover {
+  opacity: 1;
 }
 
 .opaque {
