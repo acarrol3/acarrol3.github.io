@@ -8,14 +8,11 @@ body {
   width: 768px;
   align-items: center;
   position: relative;
-  background-color: #F2F2F2;
 }
 
 #header {
   margin: auto;
   margin-top: 20px;
-  justify-content: center;
-  background-color: #F2F2F2;
   position: relative;
   text-align: center;
   font-family: 'Petit Formal Script', cursive;
@@ -28,20 +25,6 @@ nav {
   justify-content: center;
 }
 
-/* button {
-  margin-bottom:20px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #3B0D2D;
-  border: none;
-  border-radius: 15px;
-  width: 183px;
-  height: 51px;
-  font-family: 'Taviraj', serif;
-  font-weight: bold;
-  font-size: 20px;
-  text-decoration: none;
-} */
 
 a:hover {
   background-color: #0C0E46;
@@ -68,9 +51,7 @@ a {
 
 #body {
   width: 600px;
-  justify-content: center;
   position: relative;
-  align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;

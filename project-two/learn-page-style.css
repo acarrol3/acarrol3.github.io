@@ -13,7 +13,6 @@ body {
 #header {
   margin: auto;
   margin-top: 20px;
-  justify-content: center;
   position: relative;
   text-align: center;
   font-family: 'Petit Formal Script', cursive;
@@ -27,17 +26,6 @@ nav {
   margin-left: auto;
   margin-right: auto;
 }
-
-/* button {
-  margin-bottom:8px;
-  margin-left: 20px;
-  margin-right: 20px;
-  background-color: #3B0D2D;
-  width: 183px;
-  height: 51px;
-  border-radius: 15px;
-  border: none;
-} */
 
 a {
   text-align: center;
@@ -63,9 +51,7 @@ a:hover {
 
 #body {
   width: 600px;
-  justify-content: center;
   position: relative;
-  align-items: center;
   display: block;
   margin-left: auto;
   margin-right: auto;
