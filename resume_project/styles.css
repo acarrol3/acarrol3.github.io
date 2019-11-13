@@ -1,0 +1,174 @@
+body {
+  background-color: #E2EBFF;
+  font-family: 'Montserrat', sans-serif;
+  margin-right:0;
+  margin-left:0;
+}
+
+#name {
+  color:#274980;
+  font-size: 73px;
+  text-align: right;
+  font-weight: 900;
+  margin-bottom:0;
+}
+
+#info {
+  background-color: #90B4EF;
+  color: white;
+  display:flex;
+  margin-top:-18px;
+  margin-bottom:0;
+  padding:15px;
+  font-size: 10px;
+  justify-content: space-between;
+}
+
+dt {
+  font-weight:900;
+}
+
+dd {
+  margin-inline-start:0;
+}
+
+a {
+  text-decoration: none;
+  color:white;
+}
+
+#email,
+#folio {
+  margin-top: 15px;
+}
+
+#info_bottom {
+  text-align: right;
+}
+
+/* nav {
+  background-color: #BED1F8;
+  color:#274980;
+  height: 4rem;
+  align-items: center;
+  margin:0;
+} */
+
+p {
+  margin-left: 30px;
+  margin-right: 15px;
+  font-size: 13px;
+}
+
+h3 {
+  color: #274980;
+  font-size: 22px;
+  font-weight: 900;
+  text-align: center;
+  background-color:#BED1F8;
+  padding-top: 15px;
+  padding-bottom:15px;
+}
+
+h4 {
+  font-size: 15px;
+  font-weight: 1000;
+  margin-left: 15px;
+}
+
+.when_what {
+  display:flex;
+}
+
+
+/* For iPad */
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+
+  /* body */
+
+  h3 {
+    text-align: left;
+    margin-left: 15px;
+    background-color:#E2EBFF;
+    margin-bottom:10px;
+    padding:0;
+  }
+
+}
+
+
+
+/* For Desktop */
+@media only screen and (min-width:960px) {
+
+/* header */
+
+#name {
+  font-size: 120px;
+}
+
+#info {
+  display:flex;
+  margin-top:-29px;
+  margin-bottom:0;
+  font-size: 12px;
+  padding-left: 3rem;
+  padding-right:3rem;
+  justify-content: center;
+}
+
+#info_top,
+#info_bottom {
+  display:flex;
+}
+
+#email,
+#folio {
+  margin-top: auto;
+}
+
+#info_bottom {
+  text-align: left;
+}
+
+#phone,
+#folio,
+#address,
+#email {
+  margin-left: 20px;
+  margin-right:20px;
+}
+
+
+/* body */
+
+  #main {
+    margin-left:auto;
+    margin-right:auto;
+    width: 800px;
+  }
+
+  h3 {
+    text-align: left;
+    margin-left: 15px;
+    background-color:#E2EBFF;
+    margin-bottom:10px;
+    padding:0;
+  }
+
+  h4 {
+    margin-left: 3rem;
+    margin-right: 3rem;
+  }
+
+  p {
+    margin-left: 4rem;
+    margin-right: 4rem;
+  }
+
+  .when_what {
+    justify-content: space-between;
+  }
+
+}
