@@ -1,0 +1,350 @@
+body {
+  margin:0;
+  background-image: url("assets/space_background.png");
+}
+
+.site-header{
+  position: relative;
+}
+
+.footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic {
+  height: 100%;
+  width: 100%;
+  min-height: 200px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+.footprint_pic{
+  background-image: url("assets/footprint_pic.jpg");
+}
+
+.astronaut{
+  background-image: url("assets/astronaut_pic.jpeg");
+}
+
+.ice{
+  background-image: url("assets/ice_pic.jpeg");
+}
+
+.soil-pic{
+    background-image: url("assets/soil_pic.jpeg");
+}
+
+.closeup{
+  background-image: url("assets/moon_closeup_pic.jpg");
+}
+
+.kale-pic{
+  background-image: url("assets/kale_pic.jpeg");
+}
+
+.moon-pic{
+  background-image: url("assets/moon_pic.jpeg");
+}
+
+#satellite,
+#living_space,
+#kale_graphic{
+  width:50%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+#sunlight,
+#regolith,
+#timeline {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+}
+
+.site-header #title{
+  position: absolute;
+  text-align: center;
+  z-index: 1;
+  margin-left: 12%;
+  margin-top: 8%;
+}
+
+.all-info {
+  color: white;
+  font-family: acumin-pro, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+}
+
+p {
+  margin-left: 10%;
+  margin-right: 7%;
+}
+
+h3 {
+  font-family: politica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 24px;
+  /* text-align: center; */
+  border: 2px;
+  background-color: #97C7D3;
+  padding: 2% 3%;
+  cursor: pointer;
+  border-radius: 0px 12px 12px 0px;
+display: inline-block;
+padding-left: 5%;
+}
+
+.header-buttons{
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+a {
+  display: block;
+  margin-bottom: 6%;
+  text-decoration: none;
+  color: #FFF364;
+  text-align: center;
+  font-family: politica-condensed, sans-serif;
+}
+
+.button {
+  font-family: politica, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  border: 2px;
+  background-color: #97C7D3;
+  padding: 2% 0%;
+  text-align: center;
+  width: 80px;
+  cursor: pointer;
+  border-radius: 12px 12px 12px 12px;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+blockquote {
+  font-family: politica-condensed, sans-serif;
+  font-weight: 400;
+  font-style: italic;
+  color: #FFF364;
+  font-size: 35px;
+  text-align: right;
+  margin-inline-start: 0;
+}
+
+
+
+/* For Ipad */
+@media only screen and (min-width:500px) and (max-width:768px) {
+
+.header-buttons {
+  width: 50%;
+  max-width: 310px;
+}
+
+.footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic {
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.column {
+  display:flex;
+}
+
+.paragraphs {
+  /* margin-left: 5%; */
+  width: 75%;
+}
+
+.h3 {
+  width: 25%;
+}
+
+#intro_title{
+  position: absolute;
+}
+
+#intro_title.is_stuck{
+}
+
+#intro_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+}
+
+#when_title.is_stuck{
+}
+
+#when_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#water_title.is_stuck{
+}
+
+#water_title {
+  padding: 21.078px 31.609px 21.078px 52.668px;
+}
+
+#soil_title.is_stuck{
+}
+
+#soil_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+}
+
+#shelter_title.is_stuck{
+}
+
+#shelter_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#kale_title.is_stuck{
+}
+
+#kale_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#conclusion_title.is_stuck{
+}
+}
+
+
+
+
+  /* For Desktop */
+  @media only screen and (min-width:769px) {
+
+.header-buttons{
+  width: 75%;
+}
+
+.column {
+  display:flex;
+}
+
+.paragraphs {
+  /* margin-left: 5%; */
+  width: 70%;
+}
+
+.h3 {
+  width: 25%;
+}
+
+.side-quote {
+  display:flex;
+}
+
+#side-p {
+  width: 50%;
+}
+
+blockquote {
+  width: 50%;
+}
+
+.footprint_pic,
+.astronaut,
+.ice,
+.soil-pic,
+.closeup,
+.kale-pic,
+.moon-pic {
+  height: 100%;
+  width: 100%;
+  min-height: 300px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#side-1,
+#side-2,
+#side-3,
+#side-4 {
+  flex-direction: row-reverse;
+}
+
+#intro_title{
+  position: absolute;
+}
+
+#intro_title.is_stuck{
+  }
+
+#intro_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#when_title.is_stuck{
+  }
+
+#when_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#water_title.is_stuck{
+  }
+
+#water_title {
+  padding: 21.078px 31.609px 21.078px 52.668px;
+}
+
+#soil_title.is_stuck{
+  }
+
+#soil_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#shelter_title.is_stuck{
+  }
+
+#shelter_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+  }
+
+#kale_title.is_stuck{
+  }
+
+#kale_title {
+  padding: 14.172px 21.266px 14.172px 35.438px;
+    }
+
+#conclusion_title.is_stuck{
+  }
