@@ -70,22 +70,42 @@ body {
   display:block;
 }
 
-.site-header #title{
+.title {
   position: absolute;
   text-align: center;
   z-index: 1;
-  margin-left: 12%;
-  margin-top: 8%;
+  color: white;
+  font-size: 40px;
+  font-family: 'Staatliches', cursive;
+  width: 100%;
 }
 
-h1{
+/* h1{
   font-family: 'Staatliches', cursive;
   color: white;
+  font-size: 70px;
+  z-index: 1;
+  text-align:center;
+  display:inline-block;
+  position:absolute;
+  width:100%;
+  margin-top: 22%;
 }
+
+h2{
+  font-family: 'Staatliches', cursive;
+  color: white;
+  font-size: 70px;
+  z-index: 1;
+  text-align:center;
+  display:inline-block;
+  position:absolute;
+  width:100%;
+  margin-top: 30%; */
 
 .all-info {
   color: white;
-  font-family: acumin-pro, sans-serif;
+  font-family: 'Roboto Mono', monospace;
   font-weight: 300;
   font-style: normal;
   font-size: 16px;
@@ -97,18 +117,20 @@ p {
 }
 
 h3 {
-  font-family: politica, sans-serif;
-  font-weight: 600;
+  /* font-family: politica, sans-serif; */
+  font-family: 'Staatliches', cursive;
+  font-weight: 50;
   font-style: normal;
-  font-size: 24px;
+  font-size: 25px;
+  letter-spacing: 1px;
   /* text-align: center; */
   border: 2px;
   background-color: #97C7D3;
   padding: 2% 3%;
   cursor: pointer;
   border-radius: 0px 12px 12px 0px;
-display: inline-block;
-padding-left: 5%;
+  display: inline-block;
+  padding-left: 5%;
 }
 
 .header-buttons{
@@ -123,18 +145,20 @@ padding-left: 5%;
 
 a {
   display: block;
-  margin-bottom: 6%;
+  margin-bottom: 3%;
   text-decoration: none;
   color: #FFF364;
   text-align: center;
-  font-family: politica-condensed, sans-serif;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
 }
 
 .button {
-  font-family: politica, sans-serif;
-  font-weight: 600;
+  font-family: 'Staatliches', cursive;
+  font-weight: 50;
   font-style: normal;
   font-size: 20px;
+  letter-spacing: 1px;
   text-decoration: none;
   color: white;
   border: 2px;
